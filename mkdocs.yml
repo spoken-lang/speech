@@ -1,6 +1,6 @@
 site_name: Spoken Language Speech
 site_description: cool presentation
-site_url: spoken-lang.github.io/speech/
+site_url: https://spoken-lang.github.io/speech/
 
 markdown_extensions:
   - footnotes
