@@ -1,0 +1,53 @@
+site_name: Spoken Language Speech
+site_description: cool presentation
+site_url: spoken-lang.github.io/speech/
+
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+theme:
+  name: material
+
+  logo: assets/images/he_will_be_baked_soon.png
+  favicon: assets/images/he_will_be_baked_soon.png
+
+  font:
+    text: Jura
+    code: Jura
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.prefetch
+    
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.expand
+    - navigation.top
+
+  palette:
+    - scheme: slate
+      primary: black
+      accent: custom
+      toggle:
+        icon: material/lightbulb-outline
+        name: lights on
+
+    - scheme: default
+      primary: black
+      accent: custom
+      toggle:
+        icon: material/lightbulb
+        name: lights off
+
+nav:
+  - Home: index.md
+
+  - Origins:
+    - Overview: origins/index.md
