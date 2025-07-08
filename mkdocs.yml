@@ -49,5 +49,13 @@ theme:
 nav:
   - Home: index.md
 
-  - Origins:
-    - Overview: origins/index.md
+  - Context:
+    - Overview: context/index.md
+    - History: context/history.md
+    - Religious Views: context/religious_views.md
+  - Types of Gambling:
+    - Overview: types/index.md
+  - Staking Systems:
+    - Overview: staking_systems/index.md
+  - Consequences of Gambling:
+    - Overview: consequences/index.md
